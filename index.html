@@ -125,29 +125,57 @@
                 
               </table>
     
-    <ul>
+    <ol>
         <li><a href="http://www.gimnazija-cakovec.skole.hr/">
           <img src="gjs.jpg">    
         </a></li>
         <li><a href="https://www.cert.hr/">CERT</a></li>
         <li><a href="o_meni.html">O meni</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
+
        
-    </ul>
-    
-
-    
-  
-    
-    <img src="" alt="">
-   
-
-    <input type="IME" name="ime" size="n" maxlength="m">
-    <input type="PREZIME" name="prezime" size="n" maxlength="m">
-
-
-    
+    </ol>
+    <formmethod="POST">
+      <p>Ime:
+        <inputtype="text" name="ime" size="25" maxlength="20">
+      </p>
+      <p>Prezime:
+        <inputtype="text" name="prezime" size="25" maxlength="20">
+      </p>
+      <p>Komentar:
+        <textareaname="komentar" rows="6" cols="50">        
+      </textarea>
+    </p>
+  </form>
     <a href="#vrh">Povratak na vrh</a>
+
+    <p>Odaberi spol: &nbsp;
+      <inputtype="radio" name="spol">muško &nbsp;
+      <inputtype="radio" name="spol">žensko
+      <inputtype="radio" name="spol">neodređen
+    </p>
+    <p>Označi omiljene okuse sladoleda:
+      <br>
+      <inputtype="checkbox" name="sladoled1">mrkva
+      <br>
+      <inputtype="checkbox" name="sladoled2">kivi
+      <br>
+      <inputtype="checkbox" name="sladoled3">pomelo
+    </p>
+    <p>
+      <inputtype="reset" value="OBRIŠI" name="gumb1">
+      <inputtype="submit" value="POŠALJI" name="gumb2">
+    </p>
+    
+    <p>Najdraži kosarkas
+      <selectname="tv">
+        <optionvalue="1">Mesi</option>
+        <optionvalue="2">Ronaldo</option>
+        <optionvalue="3">Nejmar</option>
+        <optionvalue="4">Oršić</option>
+      </select>
+      </p>
+
 
     </body>
 
